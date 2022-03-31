@@ -1,0 +1,119 @@
+      * {
+        box-sizing: border-box;
+        margin:  0;
+        padding: 0;
+      }
+      body {font-family: Tahoma, Arial, sans-serif; } 
+      h3 {padding-top: 0px;
+        margin: 0px;
+        padding-left: 0px;}
+      h2 {
+        text-align: center;
+        padding-top: 0px;
+        margin: 10px;
+        padding-left: 0px;}
+      article{margin-top: 10px;}
+      section.sfooter {float: left; clear: both;
+                      width: 100%; text-align: center; 
+                      }
+         @media (min-width: 992px) 
+      {
+        .maxsize1 {width: 30%;
+                  float:  left;
+                  padding: 20px;  
+                  margin: 10px;
+                  background-color: #0000ff;
+                  color: #ffffff;}
+        .maxsize2 {width: 30%;
+                  float:  left;
+                  padding: 20px;  
+                  margin: 10px;                  
+                  background-color: #7fffd4;
+                  color: #000000;}
+        .maxsize3 {width:30%;
+                  float:  left;
+                  margin: 10px;
+                  padding: 20px;  
+                  background-color: #87ceeb;
+                  color: #000000;}
+      }
+      @media (min-width: 768px) and (max-width: 991px ) 
+        {
+        .midsize1 {width: 45%;
+                  float:  left;
+                  padding: 10px;
+                  margin: 7px;
+                  background-color: #0000ff;
+                  color: #ffffff;}
+        .midsize2 {width: 45%;
+                  float:  left;
+                  padding: 10px;
+                  margin: 7px;
+                  background-color: #7fffd4;
+                  color: #000000;}
+        .midsize3 {width: 92%;
+                  float:  left;
+                  margin: 7px;
+                  clear; left: ;
+                  padding: 10px;
+                  background-color: #87ceeb;
+                  color: #000000;}
+         article{margin-top: 20px;}
+        }
+      @media (max-width: 767px) 
+       {
+        .minsize1 {width: 90%;
+                  float:  left;
+                  padding: 5px;
+                  margin: 5px;
+                  background-color: #0000ff;
+                  color: #ffffff;}
+        .minsize2 {width: 90%;
+                  float:  left;
+                  padding: 5px;
+                  margin: 5px;
+                  clear; left: ;
+                  background-color: #7fffd4;
+                  color: #000000;}
+        .minsize3 {width: 90%;
+                  float:  left;
+                  padding: 5px;
+                  margin: 5px;
+                  clear: left: ;
+                  background-color: #87ceeb;
+                  color: #000000;}
+        article{margin-top: 25px;}
+        }
+
+      div   {position: relative;
+            border-style: solid; 
+            border-color: black;
+            border-width: 1px;}
+      span {
+            border-style: solid; 
+            border-color: black;
+            border-width: 1px;}
+
+      span.stitle1 {
+          position: absolute;
+            top: 5px;
+          right: 5px;
+          background-color: #00bfff;
+          }
+      span.stitle2 {
+          position: absolute;
+            top: 5px;
+          right: 5px;
+          color:  white;
+          background-color: #6a5acd;;
+          }    
+      span.stitle3 {
+          position: absolute;
+            top: 5px;
+          right: 5px;
+          background-color: #00bfff;
+          } 
+      .row {
+        border: none;
+        margin-bottom: 10px;
+        }
